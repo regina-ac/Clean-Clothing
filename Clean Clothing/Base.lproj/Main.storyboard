@@ -51,6 +51,10 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="2sD-b4-1EC">
+                                <rect key="frame" x="133" y="276" width="124" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -69,4 +73,7 @@
             <point key="canvasLocation" x="21.538461538461537" y="3.5545023696682461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="870" height="1080"/>
+    </resources>
 </document>
