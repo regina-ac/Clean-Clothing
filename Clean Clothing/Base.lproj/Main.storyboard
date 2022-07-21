@@ -14,20 +14,6 @@
                     <view key="view" contentMode="scaleToFill" id="Rnd-Ta-pj2">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" prompt="Type a brand" translatesAutoresizingMaskIntoConstraints="NO" id="sl3-f9-4Vb">
-                                <rect key="frame" x="0.0" y="61" width="390" height="85"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="0.92226940390000001" green="0.7330902815" blue="0.58638435600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IS-8H-YHN">
-                                <rect key="frame" x="307" y="61" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gEc-Cg-w9q"/>
                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -35,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLc-jH-CjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22" y="1146"/>
+            <point key="canvasLocation" x="21.538461538461537" y="1145.9715639810427"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ovk-LN-SLg">
@@ -163,6 +149,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="tapSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LPe-cM-Bud"/>
                                     <segue destination="1OY-fz-hD9" kind="show" id="ZoC-zh-BNI"/>
                                 </connections>
                             </button>
