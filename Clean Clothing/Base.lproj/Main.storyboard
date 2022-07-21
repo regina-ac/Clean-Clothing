@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21208.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21191"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="UAJ-Jb-8og">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1OY-fz-hD9" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1OY-fz-hD9" customClass="SearchViewController" customModule="Clean_Clothing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rnd-Ta-pj2">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" prompt="Type a brand" translatesAutoresizingMaskIntoConstraints="NO" id="sl3-f9-4Vb">
+                                <rect key="frame" x="0.0" y="61" width="390" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.92226940390000001" green="0.7330902815" blue="0.58638435600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IS-8H-YHN">
+                                <rect key="frame" x="307" y="61" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gEc-Cg-w9q"/>
                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -28,54 +41,47 @@
         <scene sceneID="ovk-LN-SLg">
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="g7H-U4-aUj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="rb1-l9-DaP">
+                    <view key="view" contentMode="scaleToFill" id="rb1-l9-DaP">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zc-Hd-AHI">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eql-fs-jM3">
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jmr-QX-34K">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eiB-9f-a2m">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="3000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A69-7d-tu1">
-                                                <rect key="frame" x="174" y="102" width="42" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fabrics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7d-Yl-GCT">
+                                                <rect key="frame" x="8" y="0.0" width="125" height="38"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6E-ha-GSK">
-                                                <rect key="frame" x="174" y="57" width="42" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3000" id="rzc-Iu-je5"/>
+                                            <constraint firstAttribute="height" constant="3000" id="ZhU-Ok-3uO"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Jmr-QX-34K" secondAttribute="bottom" id="77l-xV-LtX"/>
-                                    <constraint firstItem="Jmr-QX-34K" firstAttribute="leading" secondItem="9zc-Hd-AHI" secondAttribute="leading" id="96w-jr-Mda"/>
-                                    <constraint firstItem="Jmr-QX-34K" firstAttribute="top" secondItem="9zc-Hd-AHI" secondAttribute="top" id="TQd-Bf-KZG"/>
-                                    <constraint firstAttribute="trailing" secondItem="Jmr-QX-34K" secondAttribute="trailing" id="URc-cU-rKd"/>
+                                    <constraint firstItem="eiB-9f-a2m" firstAttribute="top" secondItem="Eql-fs-jM3" secondAttribute="top" id="CH5-xQ-zR9"/>
+                                    <constraint firstAttribute="bottom" secondItem="eiB-9f-a2m" secondAttribute="bottom" id="NXs-et-xav"/>
+                                    <constraint firstItem="eiB-9f-a2m" firstAttribute="width" secondItem="Eql-fs-jM3" secondAttribute="width" id="djK-bz-yiX"/>
+                                    <constraint firstAttribute="trailing" secondItem="eiB-9f-a2m" secondAttribute="trailing" id="gG2-eZ-aKA"/>
+                                    <constraint firstItem="eiB-9f-a2m" firstAttribute="leading" secondItem="Eql-fs-jM3" secondAttribute="leading" id="k6Z-ea-mkZ"/>
+                                    <constraint firstItem="eiB-9f-a2m" firstAttribute="height" secondItem="Eql-fs-jM3" secondAttribute="height" multiplier="3.91645" id="uTS-gJ-m0C"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TCf-BK-4nx"/>
                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9zc-Hd-AHI" firstAttribute="bottom" secondItem="TCf-BK-4nx" secondAttribute="bottom" id="FUS-QC-zVK"/>
-                            <constraint firstItem="9zc-Hd-AHI" firstAttribute="top" secondItem="TCf-BK-4nx" secondAttribute="top" id="e3P-mR-ncP"/>
-                            <constraint firstItem="9zc-Hd-AHI" firstAttribute="leading" secondItem="TCf-BK-4nx" secondAttribute="leading" id="fTU-bo-qLy"/>
-                            <constraint firstItem="9zc-Hd-AHI" firstAttribute="trailing" secondItem="TCf-BK-4nx" secondAttribute="trailing" id="i6f-FB-o6V"/>
-                            <constraint firstItem="Jmr-QX-34K" firstAttribute="width" secondItem="rb1-l9-DaP" secondAttribute="width" id="jka-LR-TZh"/>
-                            <constraint firstItem="Jmr-QX-34K" firstAttribute="height" secondItem="rb1-l9-DaP" secondAttribute="height" multiplier="3.5545" id="ufX-NV-RZZ"/>
+                            <constraint firstItem="Eql-fs-jM3" firstAttribute="trailing" secondItem="TCf-BK-4nx" secondAttribute="trailing" id="MxJ-C1-cv8"/>
+                            <constraint firstItem="Eql-fs-jM3" firstAttribute="top" secondItem="TCf-BK-4nx" secondAttribute="top" id="YnE-86-Nor"/>
+                            <constraint firstItem="Eql-fs-jM3" firstAttribute="leading" secondItem="TCf-BK-4nx" secondAttribute="leading" id="fNy-CK-dnK"/>
+                            <constraint firstItem="Eql-fs-jM3" firstAttribute="bottom" secondItem="TCf-BK-4nx" secondAttribute="bottom" id="tVv-fO-OEg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KMK-X3-Gh4"/>
@@ -99,7 +105,7 @@
                         <color key="sectionIndexTrackingBackgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="egU-0v-rCA">
-                                <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="egU-0v-rCA" id="Jkr-Ta-jnO">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
