@@ -90,7 +90,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O2r-mR-MLV">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O2r-mR-MLV">
                                 <rect key="frame" x="0.0" y="78" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vW5-oe-1K0">
@@ -124,7 +124,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-D8-XYT">
-                                                <rect key="frame" x="10" y="112.66666666666666" width="394" height="122"/>
+                                                <rect key="frame" x="10" y="112.66666666666663" width="394" height="122"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
@@ -168,7 +168,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-eg-LVh">
-                                                <rect key="frame" x="36" y="235.66666666666669" width="342" height="31"/>
+                                                <rect key="frame" x="36" y="235.66666666666674" width="342" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="learn more about organic cotton here!">
                                                     <color key="baseForegroundColor" red="0.59374988439999998" green="0.2374131384" blue="0.0616066225" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,7 +176,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H54-Cz-p9M">
-                                                <rect key="frame" x="31" y="309.66666666666669" width="203" height="36"/>
+                                                <rect key="frame" x="31" y="309.66666666666674" width="202" height="36"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Organic Hemp:">
                                                         <attributes>
@@ -189,7 +189,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BA-19-JfV">
-                                                <rect key="frame" x="10" y="352.66666666666669" width="394" height="69.666666666666686"/>
+                                                <rect key="frame" x="10" y="352.66666666666674" width="394" height="69.666666666666686"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
@@ -233,7 +233,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mC-fE-EZ2">
-                                                <rect key="frame" x="36" y="417.66666666666669" width="342" height="28"/>
+                                                <rect key="frame" x="36" y="417.66666666666674" width="342" height="28"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray">
                                                     <attributedString key="attributedTitle">
@@ -249,7 +249,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP8-zG-GLr">
-                                                <rect key="frame" x="36" y="474.66666666666663" width="82" height="35.666666666666686"/>
+                                                <rect key="frame" x="35.999999999999993" y="474.66666666666674" width="80.333333333333314" height="35.666666666666686"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Linen:">
                                                         <attributes>
@@ -262,7 +262,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-F9-K6t">
-                                                <rect key="frame" x="10" y="500.66666666666657" width="394" height="87.333333333333314"/>
+                                                <rect key="frame" x="10" y="500.66666666666669" width="394" height="87.333333333333314"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
@@ -974,13 +974,11 @@ CQ
                                             <constraint firstItem="7QA-qP-zFS" firstAttribute="leading" secondItem="vW5-oe-1K0" secondAttribute="leading" constant="32" id="1KK-8l-OMN"/>
                                             <constraint firstItem="aUF-oe-w7Y" firstAttribute="top" secondItem="Lu8-WM-86r" secondAttribute="bottom" constant="52" id="1LN-wB-3VE"/>
                                             <constraint firstItem="aP8-zG-GLr" firstAttribute="leading" secondItem="vW5-oe-1K0" secondAttribute="leading" constant="36" id="2ud-uD-lLO"/>
-                                            <constraint firstAttribute="trailing" secondItem="H54-Cz-p9M" secondAttribute="trailing" constant="180" id="2wY-SN-8J6"/>
                                             <constraint firstAttribute="trailing" secondItem="HIt-x0-Ct0" secondAttribute="trailing" constant="31" id="36E-px-iWe"/>
                                             <constraint firstItem="Lu8-WM-86r" firstAttribute="leading" secondItem="vW5-oe-1K0" secondAttribute="leading" constant="36" id="3i4-dV-HAl"/>
                                             <constraint firstItem="Znh-wB-Gsy" firstAttribute="top" secondItem="FgJ-k5-cJW" secondAttribute="bottom" constant="56" id="4F6-TA-0bs"/>
                                             <constraint firstItem="9mC-fE-EZ2" firstAttribute="top" secondItem="H54-Cz-p9M" secondAttribute="bottom" constant="72" id="4Us-1t-3eR"/>
                                             <constraint firstItem="b4I-dp-fcE" firstAttribute="top" secondItem="l3G-5x-KnU" secondAttribute="bottom" constant="60" id="4tH-C3-n99"/>
-                                            <constraint firstAttribute="trailing" secondItem="aP8-zG-GLr" secondAttribute="trailing" constant="296" id="5i3-S2-gjx"/>
                                             <constraint firstItem="H54-Cz-p9M" firstAttribute="top" secondItem="gcJ-eg-LVh" secondAttribute="bottom" constant="43" id="6Ar-Nf-Y9B"/>
                                             <constraint firstAttribute="trailing" secondItem="uII-sB-ORm" secondAttribute="trailing" constant="36" id="6HB-Z9-O8I"/>
                                             <constraint firstItem="02f-qI-o2I" firstAttribute="top" secondItem="Znh-wB-Gsy" secondAttribute="bottom" constant="18" id="8NJ-Ua-cLE"/>
@@ -1062,7 +1060,6 @@ CQ
                             <constraint firstItem="O2r-mR-MLV" firstAttribute="bottom" secondItem="8rH-vJ-Hko" secondAttribute="bottom" id="A71-y5-jlx"/>
                             <constraint firstItem="O2r-mR-MLV" firstAttribute="trailing" secondItem="8rH-vJ-Hko" secondAttribute="trailing" id="OfV-9i-oUU"/>
                             <constraint firstItem="O2r-mR-MLV" firstAttribute="leading" secondItem="8rH-vJ-Hko" secondAttribute="leading" id="Wi0-m9-2JB"/>
-                            <constraint firstItem="O2r-mR-MLV" firstAttribute="top" secondItem="8rH-vJ-Hko" secondAttribute="top" id="af8-Nj-gsC"/>
                             <constraint firstItem="vW5-oe-1K0" firstAttribute="width" secondItem="bWt-je-MFB" secondAttribute="width" id="ebh-Ko-Pkz"/>
                         </constraints>
                     </view>
@@ -1108,14 +1105,6 @@ CQ
                                     <segue destination="6X6-wG-eDV" kind="show" id="Ak3-yl-Wuy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b8-YI-flB">
-                                <rect key="frame" x="155" y="765" width="81" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" image="magnifyingglass" catalog="system" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnF-uf-bdw">
                                 <rect key="frame" x="293" y="765" width="81" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1142,6 +1131,14 @@ CQ
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b8-YI-flB">
+                                <rect key="frame" x="293" y="760" width="81" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="magnifyingglass" catalog="system" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yFJ-3H-fSV"/>
                         <color key="backgroundColor" red="0.71372550729999995" green="0.52549022440000004" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1253,7 +1250,7 @@ CQ
                                         <color key="strokeColor" red="0.71372550729999995" green="0.52549022440000004" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.71372550729999995" green="0.52941179279999995" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.92226940390000001" green="0.7330902815" blue="0.58638435600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRj-3T-MlZ">
@@ -1423,23 +1420,6 @@ CQ
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wp-Ey-NUe">
-                                <rect key="frame" x="155" y="759" width="81" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" image="magnifyingglass" catalog="system" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czb-fF-4o7">
-                                <rect key="frame" x="293" y="759" width="81" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" image="lightbulb.led.wide" catalog="system" cornerStyle="capsule">
-                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
-                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O57-j2-MVf">
                                 <rect key="frame" x="16" y="759" width="81" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1450,6 +1430,14 @@ CQ
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Sn3-aV-017"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wp-Ey-NUe">
+                                <rect key="frame" x="293" y="754" width="81" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="magnifyingglass" catalog="system" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hCV-oM-SS2"/>
@@ -1465,29 +1453,29 @@ CQ
         <scene sceneID="Tvt-mC-42L">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="P9E-zk-Rbf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tGT-KD-zbd">
+                    <view key="view" contentMode="scaleToFill" id="tGT-KD-zbd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKt-N4-6IP">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9JT-nh-TAm">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9JT-nh-TAm">
+                                        <rect key="frame" x="-18" y="-8" width="414" height="3000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--------Brands--------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcD-N4-TVl">
-                                                <rect key="frame" x="42" y="0.0" width="329" height="51"/>
+                                                <rect key="frame" x="42" y="6" width="328.66666666666669" height="51"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="rSM-j5-sEq">
-                                                <rect key="frame" x="8" y="68" width="171" height="137"/>
+                                                <rect key="frame" x="-25" y="65" width="225" height="137"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download (1)" translatesAutoresizingMaskIntoConstraints="NO" id="aDB-df-BwI">
-                                                <rect key="frame" x="235" y="224" width="171" height="137"/>
+                                                <rect key="frame" x="254" y="224" width="152" height="151"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlc-43-jEA">
@@ -1497,37 +1485,20 @@ CQ
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recycled+organic materials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmk-HM-BA1">
-                                                <rect key="frame" x="172" y="68" width="242" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Factories with fair wages." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgI-AL-gB8">
-                                                <rect key="frame" x="172" y="100" width="217" height="24"/>
+                                                <rect key="frame" x="172" y="107" width="216.66666666666663" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100% cotton by 2023." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UME-MZ-Gl1">
-                                                <rect key="frame" x="172" y="132" width="194" height="24"/>
+                                                <rect key="frame" x="172.66666666666663" y="139" width="193.33333333333337" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKk-Hi-JS0">
-                                                <rect key="frame" x="171" y="164" width="219" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="gray" title="visit their website!">
-                                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
-                                                    <color key="baseForegroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <color key="baseBackgroundColor" red="0.92226940390000001" green="0.7330902815" blue="0.58638435600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </buttonConfiguration>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Uses only organic materials." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QY-O0-ZGh">
                                                 <rect key="frame" x="8" y="237" width="244" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1561,6 +1532,16 @@ CQ
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWb-uh-sDG">
                                                 <rect key="frame" x="172" y="509" width="219" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="visit their website!">
+                                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                                    <color key="baseForegroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseBackgroundColor" red="0.92226940390000001" green="0.7330902815" blue="0.58638435600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ot-Qi-AI4">
+                                                <rect key="frame" x="10" y="764" width="219" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="visit their website!">
@@ -1609,23 +1590,10 @@ CQ
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txK-CE-nus">
-                                                <rect key="frame" x="0.0" y="559" width="223" height="43"/>
+                                                <rect key="frame" x="8" y="559" width="223" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Organic+recycled fabrics.">
-                                                        <attributes>
-                                                            <font key="NSFont" size="20" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCA-Xt-V65">
-                                                <rect key="frame" x="8" y="610" width="232" height="76"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Suppliers uphold ethics policy.">
                                                         <attributes>
                                                             <font key="NSFont" size="20" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -1647,10 +1615,127 @@ CQ
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygd-yL-yH2">
+                                                <rect key="frame" x="8" y="621" width="200" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Certified B Corporation">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recycled+organic materials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmk-HM-BA1">
+                                                <rect key="frame" x="172" y="75" width="238.66666666666663" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbS-q9-5PE">
+                                                <rect key="frame" x="172" y="171" width="219" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="visit their website!">
+                                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                                    <color key="baseForegroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseBackgroundColor" red="0.92226940390000001" green="0.7330902815" blue="0.58638435600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCA-Xt-V65">
+                                                <rect key="frame" x="8" y="653" width="232" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Suppliers uphold ethics policy.">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5j-cp-PwS">
+                                                <rect key="frame" x="8" y="702" width="211" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Plant 10 trees for every item sold">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="channels4_profile" translatesAutoresizingMaskIntoConstraints="NO" id="rtq-mj-yz5">
+                                                <rect key="frame" x="0.0" y="815" width="171" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utd-rz-ZYd">
+                                                <rect key="frame" x="172" y="815" width="234" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="GOTS certified organic fabrics">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="19.699999999999999" name="Optima-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Trx-OY-Txd">
+                                                <rect key="frame" x="171" y="860" width="240" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Limited amount of chemicals.">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="19.699999999999999" name="Optima-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBi-l1-sv1">
+                                                <rect key="frame" x="170" y="905" width="241" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="100% recycled shipping material.">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="19.699999999999999" name="Optima-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3000" id="tbP-Xc-NEB"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2500" id="abX-fe-s6a"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1658,7 +1743,6 @@ CQ
                                     <constraint firstItem="9JT-nh-TAm" firstAttribute="top" secondItem="sKt-N4-6IP" secondAttribute="top" id="LvS-j8-99J"/>
                                     <constraint firstAttribute="trailing" secondItem="9JT-nh-TAm" secondAttribute="trailing" id="Su1-OF-CKS"/>
                                     <constraint firstItem="9JT-nh-TAm" firstAttribute="leading" secondItem="sKt-N4-6IP" secondAttribute="leading" id="tMd-M7-8ge"/>
-                                    <constraint firstAttribute="bottom" secondItem="9JT-nh-TAm" secondAttribute="bottom" id="tPL-eY-Gxg"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -1666,9 +1750,10 @@ CQ
                         <color key="backgroundColor" red="0.74939858910000001" green="0.52117329840000004" blue="0.37745928760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9JT-nh-TAm" firstAttribute="height" secondItem="tGT-KD-zbd" secondAttribute="height" multiplier="3.34821" id="2tB-mp-qAI"/>
-                            <constraint firstItem="sKt-N4-6IP" firstAttribute="top" secondItem="mLh-rN-Whw" secondAttribute="top" id="3WA-5q-pFh"/>
                             <constraint firstItem="sKt-N4-6IP" firstAttribute="bottom" secondItem="mLh-rN-Whw" secondAttribute="bottom" id="773-tR-CMi"/>
                             <constraint firstItem="sKt-N4-6IP" firstAttribute="leading" secondItem="mLh-rN-Whw" secondAttribute="leading" id="GGd-ld-9Yg"/>
+                            <constraint firstItem="9JT-nh-TAm" firstAttribute="height" secondItem="tGT-KD-zbd" secondAttribute="height" multiplier="3.34821" id="JHg-We-zsf"/>
+                            <constraint firstItem="9JT-nh-TAm" firstAttribute="width" secondItem="tGT-KD-zbd" secondAttribute="width" id="K7a-z9-KG9"/>
                             <constraint firstItem="9JT-nh-TAm" firstAttribute="width" secondItem="tGT-KD-zbd" secondAttribute="width" id="d1S-pj-sTK"/>
                             <constraint firstItem="sKt-N4-6IP" firstAttribute="trailing" secondItem="mLh-rN-Whw" secondAttribute="trailing" id="iDL-jE-rMy"/>
                         </constraints>
@@ -1678,7 +1763,7 @@ CQ
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mgw-dR-BnH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1612" y="526"/>
+            <point key="canvasLocation" x="1610.7692307692307" y="525.35545023696682"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1691,6 +1776,7 @@ CQ
         <image name="Screen Shot 2022-07-22 at 10.46.54 AM" width="103" height="424"/>
         <image name="Screen Shot 2022-07-22 at 11.04.23 AM" width="1787" height="1043"/>
         <image name="arrowshape.turn.up.backward.circle" catalog="system" width="128" height="121"/>
+        <image name="channels4_profile" width="900" height="900"/>
         <image name="download" width="225" height="225"/>
         <image name="download (1)" width="225" height="225"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
