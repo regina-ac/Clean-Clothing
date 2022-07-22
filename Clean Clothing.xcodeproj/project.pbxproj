@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92073362288B3EA000C72531 /* fabricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92073361288B3EA000C72531 /* fabricsViewController.swift */; };
 		9257092128874F2B007A2D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257092028874F2B007A2D52 /* AppDelegate.swift */; };
 		9257092328874F2B007A2D52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257092228874F2B007A2D52 /* SceneDelegate.swift */; };
 		9257092528874F2B007A2D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9257092428874F2B007A2D52 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92073361288B3EA000C72531 /* fabricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabricsViewController.swift; sourceTree = "<group>"; };
 		9257091D28874F2B007A2D52 /* Clean Clothing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Clothing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9257092028874F2B007A2D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9257092228874F2B007A2D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				9257092228874F2B007A2D52 /* SceneDelegate.swift */,
 				9257092428874F2B007A2D52 /* ViewController.swift */,
 				9257092628874F2B007A2D52 /* Main.storyboard */,
+				92073361288B3EA000C72531 /* fabricsViewController.swift */,
 				9257092C28874F2D007A2D52 /* Assets.xcassets */,
 				9257092E28874F2D007A2D52 /* LaunchScreen.storyboard */,
 				9257093128874F2D007A2D52 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				9257092528874F2B007A2D52 /* ViewController.swift in Sources */,
 				9257092B28874F2B007A2D52 /* Clean_Clothing.xcdatamodeld in Sources */,
+				92073362288B3EA000C72531 /* fabricsViewController.swift in Sources */,
 				9257092128874F2B007A2D52 /* AppDelegate.swift in Sources */,
 				9257092328874F2B007A2D52 /* SceneDelegate.swift in Sources */,
 			);
